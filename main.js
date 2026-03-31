@@ -1,5 +1,21 @@
 import { hoaxData } from './data.js';
 
+const escapeHtml = (str) => String(str)
+  .replace(/&/g, '&amp;')
+  .replace(/</g, '&lt;')
+  .replace(/>/g, '&gt;')
+  .replace(/"/g, '&quot;')
+  .replace(/'/g, '&#39;');
+
+const safeUrl = (url) => {
+  try {
+    const parsed = new URL(url);
+    return (parsed.protocol === 'https:' || parsed.protocol === 'http:') ? url : '#';
+  } catch {
+    return '#';
+  }
+};
+
 document.addEventListener('DOMContentLoaded', () => {
   const hoaxFeed = document.getElementById('hoax-feed');
   const searchInput = document.getElementById('hoax-search');
@@ -25,16 +41,16 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     hoaxFeed.innerHTML = filteredData.map(item => `
-      <article class="hoax-card" data-id="${item.id}">
+      <article class="hoax-card" data-id="${escapeHtml(item.id)}">
         <div class="card-meta">
-          <span class="category-tag">${item.topic}</span>
-          <span class="status-badge status-${item.status}">${item.status.toUpperCase()}</span>
+          <span class="category-tag">${escapeHtml(item.topic)}</span>
+          <span class="status-badge status-${escapeHtml(item.status)}">${escapeHtml(item.status.toUpperCase())}</span>
         </div>
-        <h3 class="card-title">${item.title}</h3>
-        <p class="card-excerpt">${item.excerpt}</p>
+        <h3 class="card-title">${escapeHtml(item.title)}</h3>
+        <p class="card-excerpt">${escapeHtml(item.excerpt)}</p>
         <div class="card-footer">
-          <span class="date">${formatDate(item.date)}</span>
-          <span class="source">Sumber: ${item.source}</span>
+          <span class="date">${escapeHtml(formatDate(item.date))}</span>
+          <span class="source">Sumber: ${escapeHtml(item.source)}</span>
         </div>
       </article>
     `).join('');
@@ -57,18 +73,18 @@ document.addEventListener('DOMContentLoaded', () => {
   const showModal = (item) => {
     modalBody.innerHTML = `
       <div class="modal-header-info">
-        <span class="category-tag">${item.topic}</span>
-        <span class="status-badge status-${item.status}">${item.status.toUpperCase()}</span>
+        <span class="category-tag">${escapeHtml(item.topic)}</span>
+        <span class="status-badge status-${escapeHtml(item.status)}">${escapeHtml(item.status.toUpperCase())}</span>
       </div>
-      <h2 class="modal-title">${item.title}</h2>
+      <h2 class="modal-title">${escapeHtml(item.title)}</h2>
       <div class="modal-meta-info">
-        <p><strong>Tanggal Verifikasi:</strong> ${formatDate(item.date)}</p>
-        <p><strong>Otoritas Sumber:</strong> ${item.source}</p>
+        <p><strong>Tanggal Verifikasi:</strong> ${escapeHtml(formatDate(item.date))}</p>
+        <p><strong>Otoritas Sumber:</strong> ${escapeHtml(item.source)}</p>
       </div>
       <div class="modal-long-content">
-        <p>${item.fullContent}</p>
+        <p>${escapeHtml(item.fullContent)}</p>
       </div>
-      <a href="${item.sourceUrl}" target="_blank" class="source-link">Lihat Bukti Verifikasi &rarr;</a>
+      <a href="${safeUrl(item.sourceUrl)}" target="_blank" rel="noopener noreferrer" class="source-link">Lihat Bukti Verifikasi &rarr;</a>
     `;
     modal.classList.remove('hidden');
     document.body.style.overflow = 'hidden'; // Prevent scroll
