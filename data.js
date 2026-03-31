@@ -1,0 +1,200 @@
+export const hoaxData = [
+  {
+    id: 1,
+    title: "[HOAKS] Akun WhatsApp dan Facebook Mengatasnamakan Sekretaris Dinas Pendidikan dan Kebudayaan Kabupaten Magelang Amirudin Zuhri",
+    topic: "pejabat",
+    status: "hoax",
+    date: "2026-03-31",
+    source: "Kementerian Komunikasi dan Digital",
+    sourceUrl: "https://www.komdigi.go.id/berita/berita-hoaks/detail/hoaks-akun-whatsapp-dan-facebook-mengatasnamakan-sekretaris-dinas-pendidikan-dan-kebudayaan-kabupaten-magelang-amirudin-zuhri",
+    excerpt: "Akun WhatsApp (+62 851-2497-5576) menggunakan nama dan foto profil Sekretaris Dinas Pendidikan Magelang untuk menghubungi masyarakat.",
+    fullContent: "Faktanya, akun WhatsApp tersebut adalah tidak benar. Dilansir dari akun Instagram Diskominfo Kabupaten Magelang @kominfomagelang, nomor WhatsApp tersebut bukan milik Sekretaris Dinas Pendidikan dan Kebudayaan Amirudin Zuhri. Masyarakat diimbau untuk tidak menanggapi dan tidak memberikan data pribadi atau bantuan dana."
+  },
+  {
+    id: 2,
+    title: "[HOAKS] Presiden Prabowo Umumkan PPPK Paruh Waktu Mulai Beralih ke PNS",
+    topic: "kebijakan",
+    status: "hoax",
+    date: "2026-03-31",
+    source: "Kementerian Komunikasi dan Digital",
+    sourceUrl: "https://www.komdigi.go.id/berita/berita-hoaks/detail/hoaks-presiden-prabowo-umumkan-pppk-paruh-waktu-mulai-beralih-ke-pns",
+    excerpt: "Unggahan di Facebook mengeklaim Presiden Prabowo menyampaikan pernyataan resmi terkait rencana pengangkatan PPPK paruh waktu langsung menjadi PNS.",
+    fullContent: "Faktanya, klaim tersebut adalah hoaks. Dilansir dari tirto.id, tidak ditemukan informasi dari media kredibel yang membenarkan klaim Presiden Prabowo mengumumkan peralihan status tersebut secara otomatis. Sampai saat ini kebijakan tersebut masih dalam tahap pembahasan regulasi teknis."
+  },
+  {
+    id: 3,
+    title: "[HOAKS] AS Terjunkan 10.000 Prajurit Robot untuk Serang Iran",
+    topic: "umum",
+    status: "hoax",
+    date: "2026-03-31",
+    source: "Kementerian Komunikasi dan Digital",
+    sourceUrl: "https://www.komdigi.go.id/berita/berita-hoaks/detail/hoaks-as-terjunkan-10000-prajurit-robot-untuk-serang-iran",
+    excerpt: "Amerika Serikat (AS) dikabarkan telah mengirimkan 10.000 prajurit robot untuk melakukan serangan terhadap Iran.",
+    fullContent: "Faktanya, klaim tersebut tidak benar. Hasil pengecekan menggunakan Hive Moderation dan Bitmind menunjukkan video tersebut 99,9% merupakan hasil AI (Artificial Intelligence). Tidak ada laporan resmi mengenai pengerahan robot tempur massal ke wilayah tersebut."
+  },
+  {
+    id: 4,
+    title: "[HOAKS] Presiden Prabowo Tunjuk Susi Pudjiastuti, Mahfud MD, dan Ahok jadi Pimpinan KPK",
+    topic: "pejabat",
+    status: "hoax",
+    date: "2026-03-31",
+    source: "Kementerian Komunikasi dan Digital",
+    sourceUrl: "https://www.komdigi.go.id/berita/berita-hoaks/detail/hoaks-presiden-prabowo-tunjuk-susi-pudjiastuti-mahfud-md-dan-ahok-jadi-pimpinan-kpk",
+    excerpt: "Video mengeklaim Presiden Prabowo resmi melantik Susi Pudjiastuti, Mahfud MD, dan Ahok sebagai pimpinan baru KPK.",
+    fullContent: "Faktanya, klaim tersebut telah dibantah oleh berbagai sumber kredibel termasuk Antara News dan Tempo. Pimpinan KPK saat ini masih diketuai oleh Setyo Budiyanto berdasarkan hasil seleksi resmi, dan tokoh-tokoh yang disebutkan tidak masuk dalam struktur pimpinan saat ini."
+  },
+  {
+    id: 5,
+    title: "[HOAKS] Akun TikTok Mengatasnamakan KBRI Kuala Lumpur",
+    topic: "umum",
+    status: "hoax",
+    date: "2026-03-31",
+    source: "Kementerian Komunikasi dan Digital",
+    sourceUrl: "https://www.komdigi.go.id/berita/berita-hoaks/detail/hoaks-akun-tiktok-mengatasnamakan-kbri-kuala-lumpur",
+    excerpt: "Beredar akun TikTok yang menggunakan logo Pancasila dan nama Kedutaan Besar Republik Indonesia Kuala Lumpur untuk pelayanan WNI.",
+    fullContent: "Faktanya, KBRI Kuala Lumpur menegaskan melalui Instagram resminya @indonesiainkualalumpur bahwa mereka tidak memiliki akun TikTok resmi. Akun tersebut adalah akun palsu yang berpotensi melakukan penipuan data pribadi."
+  },
+  {
+    id: 6,
+    title: "[HOAKS] Presiden Prabowo Dibuatkan Lagu Oleh Musisi Dunia karena Terlibat di Board of Peace",
+    topic: "umum",
+    status: "hoax",
+    date: "2026-03-31",
+    source: "Kementerian Komunikasi dan Digital",
+    sourceUrl: "https://www.komdigi.go.id/berita/berita-hoaks/detail/hoaks-presiden-prabowo-dibuatkan-lagu-oleh-musisi-dunia-karena-terlibat-di-board-of-peace",
+    excerpt: "Video musik mengeklaim musisi internasional menciptakan lagu khusus untuk Prabowo atas perannya di Board of Peace (BoP).",
+    fullContent: "Faktanya, lagu tersebut adalah hasil buatan AI. Pengecekan Hive Moderation menunjukkan indikasi AI sebesar 96,7%. Kanal asli pengunggah video tersebut juga menyertakan label bahwa konten merupakan hasil modifikasi sintetis."
+  },
+  {
+    id: 7,
+    title: "[HOAKS] FIFA Tunjuk Indonesia Jadi Tuan Rumah Piala Dunia 2026 Gantikan Meksiko",
+    topic: "umum",
+    status: "hoax",
+    date: "2026-03-31",
+    source: "Kementerian Komunikasi dan Digital",
+    sourceUrl: "https://www.komdigi.go.id/berita/berita-hoaks/detail/hoaks-fifa-tunjuk-indonesia-jadi-tuan-rumah-piala-dunia-2026-gantikan-meksiko",
+    excerpt: "FIFA secara mendadak mengalihkan hak tuan rumah Piala Dunia 2026 dari Meksiko ke Indonesia karena masalah keamanan kartel narkoba.",
+    fullContent: "Faktanya, tidak ada pengumuman resmi dari FIFA terkait pemindahan ini. Foto yang digunakan dalam klaim adalah foto lama pertemuan Presiden FIFA Gianni Infantino dengan presiden Indonesia sebelumnya pada tahun 2022."
+  },
+  {
+    id: 8,
+    title: "[SALAH] Bahlil Dorong PLN Naikkan Harga Token Listrik",
+    topic: "kebijakan",
+    status: "hoax",
+    date: "2026-03-31",
+    source: "TurnBackHoax (Mafindo)",
+    sourceUrl: "https://turnbackhoax.id/articles/33184-salah-bahlil-dorong-pln-naikkan-harga-token-listrik",
+    excerpt: "Narasi mengeklaim Menteri Bahlil memerintahkan PLN menaikkan harga token listrik agar rakyat berhemat.",
+    fullContent: "Faktanya, melalui laman resmi pln.co.id per 1 Januari 2026, tarif listrik untuk triwulan pertama tahun 2026 dinyatakan tidak mengalami kenaikan (tetap). Tidak ada pernyataan resmi dari Bahlil terkait instruksi kenaikan tersebut."
+  },
+  {
+    id: 9,
+    title: "[SALAH] Mencium Kucing Mampu Sebabkan Infeksi Otak",
+    topic: "umum",
+    status: "hoax",
+    date: "2026-03-31",
+    source: "TurnBackHoax (Mafindo)",
+    sourceUrl: "https://turnbackhoax.id/articles/33185-salah-mencium-kucing-mampu-sebabkan-infeksi-otak",
+    excerpt: "Pesan berantai menyebutkan parasit toksoplasma dari bulu kucing bisa langsung masuk ke otak melalui ciuman.",
+    fullContent: "Faktanya, penularan toksoplasmosis terjadi melalui konsumsi feses atau daging yang terkontaminasi, bukan kontak fisik permukaan. Risiko utama toksoplasma adalah pada kesehatan reproduksi, bukan infeksi otak melalui ciuman."
+  },
+  {
+    id: 10,
+    title: "[HOAKS] Media Sosial akan Dinonaktifkan Komdigi pada 28 Maret 2026",
+    topic: "kebijakan",
+    status: "hoax",
+    date: "2026-03-28",
+    source: "Kementerian Komunikasi dan Digital",
+    sourceUrl: "https://www.komdigi.go.id/berita/berita-hoaks/detail/hoaks-media-sosial-akan-dinonaktifkan-komdigi-pada-28-maret-2026",
+    excerpt: "Unggahan di TikTok mengeklaim Komdigi akan menonaktifkan seluruh platform media sosial termasuk Facebook, Instagram, TikTok, dan YouTube pada 28 Maret 2026.",
+    fullContent: "Faktanya, Komdigi tidak menonaktifkan media sosial. Kebijakan yang berlaku pada 28 Maret 2026 adalah pembatasan usia pengguna berdasarkan Peraturan Menteri Komunikasi dan Digital Nomor 9 Tahun 2026, yang melarang anak di bawah 16 tahun memiliki akun media sosial. Kebijakan ini dikonfirmasi oleh Polri, ANTARA News, dan RRI sebagai hoaks yang sengaja menyesatkan publik."
+  },
+  {
+    id: 11,
+    title: "[HOAKS] Harga BBM Resmi Naik pada 9 Maret 2026",
+    topic: "ekonomi",
+    status: "hoax",
+    date: "2026-03-09",
+    source: "Kementerian Komunikasi dan Digital",
+    sourceUrl: "https://www.komdigi.go.id/berita/berita-hoaks/detail/hoaks-harga-bbm-naik-pada-9-maret-2026",
+    excerpt: "Klaim viral di media sosial menyebutkan harga BBM resmi naik serentak pada tanggal 9 Maret 2026.",
+    fullContent: "Faktanya, klaim tersebut adalah hoaks. Pertamina secara resmi membantah informasi tersebut dan meminta masyarakat memantau penyesuaian harga hanya melalui situs resmi www.pertamina.com. Juru bicara Kementerian ESDM Dwi Anggia juga menegaskan harga BBM bersubsidi tidak naik menjelang Hari Raya Idul Fitri 1447 H. Tidak ada kebijakan resmi kenaikan BBM pada tanggal yang beredar tersebut."
+  },
+  {
+    id: 12,
+    title: "[PENIPUAN] Tautan Pendaftaran Rekrutmen PLN 2026",
+    topic: "umum",
+    status: "hoax",
+    date: "2026-03-03",
+    source: "TurnBackHoax (Mafindo)",
+    sourceUrl: "https://turnbackhoax.id/articles/32612-penipuan-tautan-pendaftaran-rekrutmen-pln-2026",
+    excerpt: "Akun TikTok 'SEPUTAR PLN' mempromosikan rekrutmen PT PLN 2026 dengan klaim pendaftaran dibuka 10 Januari hingga 27 Maret 2026 secara gratis.",
+    fullContent: "Faktanya, tidak ada informasi rekrutmen PLN 2026 di portal resmi rekrutmen.pln.co.id. Rekrutmen PLN terakhir tercatat pada November 2025 untuk posisi S1/S2 Hukum. Tautan yang disebarkan mengarah ke halaman tidak resmi yang meminta data pribadi termasuk nama, provinsi asal, dan nomor Telegram — indikasi kuat penipuan phishing pencurian data."
+  },
+  {
+    id: 13,
+    title: "[PENIPUAN] Video Bantuan Dana Rp200 Juta–Rp2 Miliar untuk Masyarakat Non-Muslim 2026",
+    topic: "umum",
+    status: "hoax",
+    date: "2026-02-23",
+    source: "TurnBackHoax (Mafindo)",
+    sourceUrl: "https://turnbackhoax.id/articles/32490-penipuan-bantuan-dana-untuk-masyarakat-non-muslim-2026",
+    excerpt: "Video Facebook mengeklaim pemerintah menyalurkan bantuan dana Rp200 juta hingga Rp2 miliar untuk masyarakat non-Muslim dan gereja melalui Kemenag hingga pertengahan 2026.",
+    fullContent: "Faktanya, Kementerian Agama secara resmi membantah klaim ini dan menyatakan surat terkait 'penyaluran Bantuan Dana DAP' yang beredar adalah tidak benar. Video tersebut menggunakan footage lama dari liputan banjir di Batang Toru yang dimanipulasi menggunakan teknologi AI untuk menampilkan pembawa berita palsu yang mempromosikan program fiktif."
+  },
+  {
+    id: 14,
+    title: "[HOAKS] Rekrutmen Petugas Haji 2026 Mencatut Nama Kemenag RI",
+    topic: "umum",
+    status: "hoax",
+    date: "2026-01-14",
+    source: "TurnBackHoax (Mafindo)",
+    sourceUrl: "https://turnbackhoax.id/articles/31632",
+    excerpt: "Unggahan Facebook menawarkan posisi petugas haji 2026 menggunakan logo dan nama resmi Kementerian Agama, mengarahkan pendaftar ke situs eksternal.",
+    fullContent: "Faktanya, pendaftaran petugas haji periode 1447 H/2026 M telah resmi ditutup sejak Desember 2025, dan peserta terpilih sudah memasuki tahap pelatihan sejak 10 Januari hingga 9 Februari 2026. Tautan pendaftaran palsu (gillyii.com) tidak memiliki afiliasi dengan portal resmi petugas.haji.go.id dan merupakan skema phishing yang berpotensi mencuri data pribadi."
+  },
+  {
+    id: 15,
+    title: "[HOAKS] Akun Facebook Wondr BNI Tawarkan Undian Berhadiah Maret 2026",
+    topic: "ekonomi",
+    status: "hoax",
+    date: "2026-03-26",
+    source: "Kompas Cek Fakta",
+    sourceUrl: "https://www.kompas.com/cekfakta/read/2026/03/26/130241082/hoaks-akun-facebook-wondr-bni-tawarkan-undian-berhadiah-maret-2026",
+    excerpt: "Sejumlah akun Facebook mengatasnamakan Wondr (aplikasi mobile banking BNI) menawarkan undian berhadiah berupa kendaraan, rumah, ponsel, dan paket umroh.",
+    fullContent: "Faktanya, akun-akun tersebut adalah palsu. Akun Facebook resmi BNI menggunakan centang biru verifikasi, sementara undian Wondr hanya diselenggarakan melalui aplikasi resmi Wondr BNI — bukan melalui pendaftaran di media sosial. Direktur Consumer Banking BNI Corina Leyla Karnalies menegaskan: 'Itu hanya jebakan agar korban mentransfer sejumlah uang ke pelaku.' Masyarakat diminta tidak mengikuti arahan akun-akun tidak terverifikasi tersebut."
+  },
+  {
+    id: 16,
+    title: "[HOAKS] Dirjen Bimas Islam Kemenag Resmikan Dana Hibah Al-Bayti Saat Ramadhan",
+    topic: "umum",
+    status: "hoax",
+    date: "2026-03-24",
+    source: "Kompas Cek Fakta",
+    sourceUrl: "https://www.kompas.com/cekfakta/read/2026/03/24/101000182/-hoaks-dirjen-bimas-islam-resmikan-dana-hibah-al-bayti-saat-ramadhan",
+    excerpt: "Video mengeklaim Dirjen Bimas Islam Kemenag Abu Rokhmad meresmikan program dana hibah Al-Bayti dengan nominal Rp50 juta hingga Rp1 miliar, disertai nomor WhatsApp pendaftaran.",
+    fullContent: "Faktanya, video tersebut adalah hasil manipulasi AI dengan tingkat deteksi akurasi 99,7 persen menggunakan tool Hive Moderation. Direktorat Jenderal Bimas Islam tidak pernah mengumumkan program serupa di media sosial resmi maupun website Kemenag. Dana hibah Al-Bayti merupakan skema penipuan yang telah beredar sebelumnya dan kini memakai wajah pejabat pemerintah hasil deepfake."
+  },
+  {
+    id: 17,
+    title: "[HOAKS] Program Sembako Gratis Ramadhan 1447 H dari Pertamina",
+    topic: "ekonomi",
+    status: "hoax",
+    date: "2026-03-03",
+    source: "Kompas Cek Fakta",
+    sourceUrl: "https://www.kompas.com/cekfakta/read/2026/03/03/212100882/infografik--hoaks-program-sembako-ramadhan-dari-pertamina-cek-faktanya-",
+    excerpt: "Unggahan media sosial mengeklaim PT Pertamina membagikan paket sembako gratis selama Ramadhan 1447 H di seluruh wilayah Indonesia.",
+    fullContent: "Faktanya, Pertamina secara resmi membantah klaim tersebut. Tidak ada program pemberian sembako sebagaimana disampaikan dalam unggahan. Tautan yang disebarkan mengarah ke situs palsu yang dirancang untuk mencuri data pribadi pengguna. Masyarakat diimbau hanya mengakses informasi program resmi Pertamina melalui www.pertamina.com."
+  },
+  {
+    id: 18,
+    title: "[HOAKS] BMKG Prediksi Gempa Besar pada 5 Maret 2026",
+    topic: "umum",
+    status: "hoax",
+    date: "2026-03-05",
+    source: "Liputan6 Cek Fakta",
+    sourceUrl: "https://www.liputan6.com/cek-fakta/read/6291489/cek-fakta-hoaks-bmkg-prediksi-gempa-besar-pada-5-maret-2026",
+    excerpt: "Unggahan Facebook beredar mengklaim BMKG menghimbau seluruh rakyat Indonesia tentang kemungkinan terjadinya gempa besar skala besar pada 5 Maret 2026.",
+    fullContent: "Faktanya, BMKG melalui akun Instagram resmi @infobmkg menegaskan: 'BMKG tidak pernah menyampaikan prediksi waktu pasti terjadinya gempa bumi. Hingga saat ini, ilmu pengetahuan dan teknologi belum mampu memprediksi kapan, di mana, dan seberapa besar gempa akan terjadi secara tepat dan akurat.' BMKG hanya melakukan pemantauan seismik rutin dan asesmen potensi bahaya, bukan prediksi tanggal gempa."
+  }
+];
