@@ -240,5 +240,49 @@ export const hoaxData = [
     sourceUrl: "https://www.liputan6.com/cek-fakta/read/6291489/cek-fakta-hoaks-bmkg-prediksi-gempa-besar-pada-5-maret-2026",
     excerpt: "Unggahan Facebook beredar mengklaim BMKG menghimbau seluruh rakyat Indonesia tentang kemungkinan terjadinya gempa besar skala besar pada 5 Maret 2026.",
     fullContent: "Faktanya, BMKG melalui akun Instagram resmi @infobmkg menegaskan: 'BMKG tidak pernah menyampaikan prediksi waktu pasti terjadinya gempa bumi. Hingga saat ini, ilmu pengetahuan dan teknologi belum mampu memprediksi kapan, di mana, dan seberapa besar gempa akan terjadi secara tepat dan akurat.' BMKG hanya melakukan pemantauan seismik rutin dan asesmen potensi bahaya, bukan prediksi tanggal gempa."
+  },
+  {
+    id: 23,
+    title: "[HOAKS] Video Prabowo Umumkan Bantuan Rp50 Juta untuk Seluruh Rakyat Indonesia",
+    topic: "pejabat",
+    status: "hoax",
+    date: "2026-03-23",
+    source: "Liputan6 Cek Fakta",
+    sourceUrl: "https://www.liputan6.com/cek-fakta/read/6303105/deretan-hoaks-catut-nama-presiden-ri-dari-prabowo-hingga-sby",
+    excerpt: "Video di Facebook memuat narasi Presiden Prabowo mengumumkan bantuan Rp50 juta untuk rakyat yang follow akun dan menekan tombol love.",
+    fullContent: "Faktanya, video tersebut adalah manipulasi deepfake yang mencatut nama dan wajah Presiden Prabowo Subianto. Narasi 'silakan tekan tanda love dan panah, bantuan akan segera saya berikan' adalah modus penipuan engagement farming yang umum di media sosial. Tidak ada pengumuman bantuan resmi senilai Rp50 juta dari Presiden. Informasi resmi kepresidenan hanya tersedia di www.presidenri.go.id dan kanal resmi Sekretariat Presiden."
+  },
+  {
+    id: 24,
+    title: "[HOAKS] Foto Bus Pemudik Masuk Jurang Lebaran 2026",
+    topic: "umum",
+    status: "hoax",
+    date: "2026-03-13",
+    source: "Liputan6 Cek Fakta",
+    sourceUrl: "https://www.liputan6.com/cek-fakta/read/6303463/cek-fakta-dalam-foto-ini-bukan-bus-pemudik-masuk-jurang",
+    excerpt: "Foto bus terguling di lahan terbuka beredar di Facebook dengan klaim bus pemudik masuk jurang menjelang Lebaran 2026.",
+    fullContent: "Faktanya, foto tersebut bukan kecelakaan bus pemudik Lebaran 2026. Hasil penelusuran menunjukkan foto itu adalah bus peziarah rombongan warga Serpong Utara, Tangerang Selatan, yang masuk jurang di Objek Wisata Pemandian Air Panas Guci, Tegal, Jawa Tengah — pada Minggu, 7 Mei 2023. Foto lama dari tiga tahun lalu ini disebarkan ulang seolah-olah sebagai insiden mudik terkini untuk memancing kepanikan."
+  },
+  {
+    id: 25,
+    title: "[HOAKS] Link Pendaftaran CPNS Polsuspas 2026 Dibuka di TikTok",
+    topic: "kebijakan",
+    status: "hoax",
+    date: "2026-03-26",
+    source: "Liputan6 Cek Fakta",
+    sourceUrl: "https://www.liputan6.com/cek-fakta/read/6304445/cek-fakta-tidak-benar-link-pendaftaran-cpns-polsuspas-2026",
+    excerpt: "Akun TikTok menyebarkan link pendaftaran CPNS Polisi Khusus Pemasyarakatan (Polsuspas) 2026 dengan klaim pendaftaran resmi dibuka.",
+    fullContent: "Faktanya, Kementerian Imigrasi dan Pemasyarakatan melalui surat Sekretaris Jenderal tertanggal 9 Januari 2026 memastikan tidak ada pengumuman rekrutmen CPNS 2026. Badan Kepegawaian Negara (BKN) juga menegaskan pemerintah belum membuka seleksi CPNS tahun ini. Link yang beredar mengarah ke formulir tidak resmi yang mengumpulkan data pribadi. Rekrutmen CPNS resmi selalu diumumkan melalui sscasn.bkn.go.id."
+  },
+  {
+    id: 26,
+    title: "[HOAKS] Link Pendaftaran Bantuan Bibit Ayam Gratis dari Kementan 2026",
+    topic: "umum",
+    status: "hoax",
+    date: "2026-03-03",
+    source: "Liputan6 Cek Fakta",
+    sourceUrl: "https://www.liputan6.com/cek-fakta/read/6289640/cek-fakta-hoaks-link-pendaftaran-bantuan-bibit-ayam-periode-21-februari-30-april-2026",
+    excerpt: "Unggahan Facebook menawarkan program bantuan bibit ayam gratis dari pemerintah dengan kuota 5.000 nasional, termasuk DOC, pakan, imunisasi, dan modal usaha.",
+    fullContent: "Faktanya, Direktorat Jenderal Peternakan dan Kesehatan Hewan (Ditjen PKH) Kementan mengeluarkan peringatan resmi: 'Hati-hati! Jangan mudah percaya akun mencurigakan atau link pendaftaran tidak resmi.' Link tersebut mengarahkan ke formulir yang meminta nomor KTP dan kontak Telegram — modus pencurian data pribadi. Informasi program bantuan ternak yang sah hanya tersedia di www.pertanian.go.id dan akun resmi Kementan."
   }
 ];
