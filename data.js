@@ -143,6 +143,50 @@ export const hoaxData = [
     fullContent: "Faktanya, Kementerian Agama secara resmi membantah klaim ini dan menyatakan surat terkait 'penyaluran Bantuan Dana DAP' yang beredar adalah tidak benar. Video tersebut menggunakan footage lama dari liputan banjir di Batang Toru yang dimanipulasi menggunakan teknologi AI untuk menampilkan pembawa berita palsu yang mempromosikan program fiktif."
   },
   {
+    id: 19,
+    title: "[HOAKS] Link Pendaftaran BLT UMKM Rp5 Juta Batas Akhir 1 April 2026",
+    topic: "ekonomi",
+    status: "hoax",
+    date: "2026-03-31",
+    source: "Liputan6 Cek Fakta",
+    sourceUrl: "https://www.liputan6.com/cek-fakta/read/6307194/cek-fakta-hoaks-link-pendaftaran-blt-umkm-dengan-batas-akhir-1-april-2026",
+    excerpt: "Unggahan Facebook menyebarkan link pendaftaran BLT UMKM senilai Rp5 juta dengan klaim batas akhir pendaftaran 1 April 2026.",
+    fullContent: "Faktanya, Kementerian UMKM secara resmi menyatakan: 'Unggahan tersebut tidak benar dan terindikasi penipuan.' Tidak ada program BLT UMKM dari pemerintah saat ini. Modus yang digunakan adalah meminta masyarakat mengisi data pribadi — termasuk nomor Telegram — melalui formulir/link tidak resmi. Informasi resmi hanya tersedia di Instagram @kementerianumkm dan umkm.go.id."
+  },
+  {
+    id: 20,
+    title: "[HOAKS] Pertamina Bagikan BBM Gratis di Seluruh SPBU Akhir Maret 2026",
+    topic: "ekonomi",
+    status: "hoax",
+    date: "2026-03-30",
+    source: "Liputan6 Cek Fakta",
+    sourceUrl: "https://www.liputan6.com/cek-fakta/read/6306219/hoaks-pengisian-bbm-simak-daftarnya-biar-tak-terpengaruh",
+    excerpt: "Pesan viral mengeklaim Pertamina mengadakan program pengisian BBM gratis di seluruh SPBU Indonesia pada akhir Maret 2026.",
+    fullContent: "Faktanya, PT Pertamina (Persero) secara resmi membantah adanya program pengisian BBM gratis tersebut. Tidak ada pengumuman resmi dari Pertamina terkait program serupa. Hoaks sejenis tentang BBM gratis atau pembatasan pengisian BBM berulang kali beredar dan selalu dibantah oleh Pertamina. Masyarakat diminta memantau informasi hanya melalui kanal resmi pertamina.com."
+  },
+  {
+    id: 21,
+    title: "[HOAKS] Pendaftaran Haji Gratis 2026 Dibuka untuk 100 Orang oleh PP APRI",
+    topic: "umum",
+    status: "hoax",
+    date: "2026-03-22",
+    source: "Liputan6 Cek Fakta",
+    sourceUrl: "https://www.liputan6.com/cek-fakta/read/6305556/deretan-hoaks-seputar-haji-2026-yang-beredar-di-medsos-simak-faktanya",
+    excerpt: "Akun Facebook mengeklaim Pengurus Pusat Asosiasi Penghulu Republik Indonesia (PP APRI) membuka pendaftaran haji gratis khusus 100 orang untuk keberangkatan 2027.",
+    fullContent: "Faktanya, informasi tersebut adalah palsu. Link yang disertakan mengarah ke formulir yang meminta data pribadi dan nomor Telegram — modus umum penipuan phishing. Tidak ada konfirmasi dari PP APRI maupun Kementerian Agama mengenai program haji gratis dimaksud. Informasi resmi haji hanya tersedia di haji.kemenag.go.id dan kanal resmi Kemenag RI."
+  },
+  {
+    id: 22,
+    title: "[HOAKS] Listrik Padam 7 Hari dan Internet Mati Akibat Krisis Global",
+    topic: "umum",
+    status: "hoax",
+    date: "2026-01-24",
+    source: "Kementerian Komunikasi dan Digital",
+    sourceUrl: "https://www.komdigi.go.id/berita/berita-hoaks/detail/hoaks-listrik-padam-7-hari-dan-internet-mati-akibat-krisis-global",
+    excerpt: "Narasi viral mengeklaim Indonesia akan mengalami pemadaman listrik total selama 7 hari disertai matinya internet akibat krisis global.",
+    fullContent: "Faktanya, PT PLN (Persero) secara resmi membantah isu tersebut. Komdigi menegaskan hoaks ini berasal dari video Dharma Pongrekun yang dipotong di luar konteks — ia hanya membahas skenario darurat secara umum, bukan memberikan peringatan resmi pemadaman nasional. Sistem kelistrikan Indonesia dirancang dengan berlapis pengamanan dan PLN memiliki tim siaga 24 jam untuk setiap gangguan."
+  },
+  {
     id: 14,
     title: "[HOAKS] Rekrutmen Petugas Haji 2026 Mencatut Nama Kemenag RI",
     topic: "umum",
