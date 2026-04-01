@@ -28,12 +28,14 @@ document.addEventListener('DOMContentLoaded', () => {
   let searchTerm = '';
 
   const renderHoaxItems = () => {
-    const filteredData = hoaxData.filter(item => {
-      const matchesCategory = activeCategory === 'all' || item.topic === activeCategory;
-      const matchesSearch = item.title.toLowerCase().includes(searchTerm.toLowerCase()) || 
-                            item.excerpt.toLowerCase().includes(searchTerm.toLowerCase());
-      return matchesCategory && matchesSearch;
-    });
+    const filteredData = hoaxData
+      .filter(item => {
+        const matchesCategory = activeCategory === 'all' || item.topic === activeCategory;
+        const matchesSearch = item.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+                              item.excerpt.toLowerCase().includes(searchTerm.toLowerCase());
+        return matchesCategory && matchesSearch;
+      })
+      .sort((a, b) => new Date(b.date) - new Date(a.date));
 
     if (filteredData.length === 0) {
       hoaxFeed.innerHTML = '<div class="no-results">Tidak ada hasil ditemukan untuk pencarian Anda.</div>';
