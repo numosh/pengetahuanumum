@@ -328,5 +328,49 @@ export const hoaxData = [
     sourceUrl: "https://turnbackhoax.id/articles/31564",
     excerpt: "Klaim beredar bahwa Menteri ESDM Bahlil Lahadalia mewajibkan pengemudi ojek online membeli motor listrik di tahun 2026 untuk mengurangi beban subsidi negara.",
     fullContent: "Faktanya, tidak ada pernyataan resmi dari Menteri Bahlil yang mendukung klaim tersebut. Bahlil sendiri menyatakan: 'Sampai sekarang tidak ada pembahasan dan tidak ada perubahan pola.' Kebijakan nasional yang berdampak pada jutaan orang pasti akan melalui pengumuman resmi, regulasi tertulis, dan pemberitaan media — tidak ada satupun yang bisa ditemukan untuk klaim ini."
+  },
+  {
+    id: 31,
+    title: "[HOAKS] Video Prabowo Umumkan THR Rp20 Triliun dari Hasil Rampasan Harta Koruptor",
+    topic: "pejabat",
+    status: "hoax",
+    date: "2026-03-20",
+    source: "ANTARA News",
+    sourceUrl: "https://www.antaranews.com/berita/5479446/hoaks-video-prabowo-berikan-thr-total-rp20-triliun-untuk-masyarakat-yang-membutuhkan",
+    excerpt: "Video di media sosial memperlihatkan Presiden Prabowo mengumumkan pemerintah akan membagikan THR total Rp20 triliun dari hasil rampasan harta koruptor kepada masyarakat yang membutuhkan.",
+    fullContent: "Faktanya, video tersebut adalah hasil manipulasi AI. Hive Moderation mengidentifikasi suara Prabowo dalam video dihasilkan AI dengan probabilitas 99,9 persen, dikonfirmasi juga oleh Undetectable. Tidak ditemukan pernyataan resmi dari Presiden Prabowo terkait pembagian THR Rp20 triliun. Unggahan mengarahkan masyarakat ke nomor WhatsApp pribadi — modus penipuan yang sama dengan video deepfake Prabowo sebelumnya yang menjanjikan Rp40 juta dan Rp50 juta."
+  },
+  {
+    id: 32,
+    title: "[HOAKS] Gubernur Jawa Barat Dedi Mulyadi Adakan Program Tebus Motor Murah Rp500.000",
+    topic: "pejabat",
+    status: "hoax",
+    date: "2026-03-12",
+    source: "Kompas Cek Fakta",
+    sourceUrl: "https://www.kompas.com/cekfakta/read/2026/03/02/181500582/-hoaks-dedi-mulyadi-adakan-tebus-motor-murah-rp-500.000",
+    excerpt: "Video mengeklaim Gubernur Jawa Barat Dedi Mulyadi mengadakan program tebus motor murah seharga Rp500.000 untuk masyarakat.",
+    fullContent: "Faktanya, video tersebut adalah rekayasa AI. Diskominfo Jawa Barat dan Jabar Saber Hoaks menegaskan tidak ada program tebus motor murah dari Gubernur Dedi Mulyadi. Verifikasi menggunakan TruthScan menunjukkan suara Dedi Mulyadi dalam video adalah AI generatif dengan probabilitas 99 persen. Tidak ada informasi terkait program tersebut di akun media sosial resmi Dedi Mulyadi maupun Pemprov Jabar."
+  },
+  {
+    id: 33,
+    title: "[HOAKS] Video Indonesia Kirimkan Bantuan Rudal untuk Iran",
+    topic: "umum",
+    status: "hoax",
+    date: "2026-03-03",
+    source: "TurnBackHoax (Mafindo)",
+    sourceUrl: "https://turnbackhoax.id/articles/32852-parodi-indonesia-kirimkan-bantuan-rudal-untuk-iran",
+    excerpt: "Video di Facebook memperlihatkan kumpulan benda panjang di atas truk tronton dengan narasi bahwa Indonesia mengirimkan bantuan rudal untuk Iran.",
+    fullContent: "Faktanya, benda-benda yang terlihat di video bukanlah rudal melainkan tiang pancang (paku bumi) yang umum digunakan dalam proyek konstruksi infrastruktur. Konten ini diklasifikasikan sebagai parodi yang disalahartikan. Indonesia tidak pernah mengirimkan bantuan persenjataan ke Iran. Klaim serupa telah berulang kali beredar sejak 2025 dan selalu dibantah oleh Komdigi, Polri, serta Mafindo."
+  },
+  {
+    id: 34,
+    title: "[HOAKS] Informasi Seleksi CPNS Kemenkes 2026 Beredar di Media Sosial",
+    topic: "kebijakan",
+    status: "hoax",
+    date: "2026-01-22",
+    source: "Badan Kepegawaian Negara (BKN)",
+    sourceUrl: "https://www.bkn.go.id/beredar-informasi-seleksi-kemenkes-2026-prof-zudan-itu-hoaks-rekrutmen-asn-terintegrasi-dan-diawasi-bkn/",
+    excerpt: "Informasi tentang seleksi ASN Kementerian Kesehatan 2026 lengkap dengan daftar formasi, nominal gaji, dan link pendaftaran beredar luas di media sosial.",
+    fullContent: "Faktanya, Kepala BKN Prof. Zudan menegaskan: 'Hingga saat ini belum ada pengumuman resmi terkait pembukaan seleksi ASN Tahun 2026.' Seluruh rekrutmen ASN — baik CPNS maupun PPPK — dijalankan melalui mekanisme nasional terintegrasi yang diawasi BKN, dan pendaftaran resmi hanya melalui portal SSCASN di sscasn.bkn.go.id. Link dan informasi formasi yang beredar di media sosial bukan berasal dari sumber resmi manapun."
   }
 ];
