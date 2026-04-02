@@ -372,5 +372,60 @@ export const hoaxData = [
     sourceUrl: "https://www.bkn.go.id/beredar-informasi-seleksi-kemenkes-2026-prof-zudan-itu-hoaks-rekrutmen-asn-terintegrasi-dan-diawasi-bkn/",
     excerpt: "Informasi tentang seleksi ASN Kementerian Kesehatan 2026 lengkap dengan daftar formasi, nominal gaji, dan link pendaftaran beredar luas di media sosial.",
     fullContent: "Faktanya, Kepala BKN Prof. Zudan menegaskan: 'Hingga saat ini belum ada pengumuman resmi terkait pembukaan seleksi ASN Tahun 2026.' Seluruh rekrutmen ASN — baik CPNS maupun PPPK — dijalankan melalui mekanisme nasional terintegrasi yang diawasi BKN, dan pendaftaran resmi hanya melalui portal SSCASN di sscasn.bkn.go.id. Link dan informasi formasi yang beredar di media sosial bukan berasal dari sumber resmi manapun."
+  },
+  {
+    id: 35,
+    title: "[HOAKS] Token Listrik Gratis Rp750.000 untuk Pelanggan PLN Prabayar",
+    topic: "ekonomi",
+    status: "hoax",
+    date: "2026-03-27",
+    source: "Liputan6 Cek Fakta",
+    sourceUrl: "https://www.liputan6.com/cek-fakta/read/6307766/kumpulan-hoaks-token-listrik-pln-dari-dibagikan-gratis-sampai-diusulkan-naik",
+    excerpt: "Unggahan Facebook menawarkan token listrik gratis Rp750.000 untuk pelanggan PLN prabayar dengan daya minimal 450W melalui link pendaftaran.",
+    fullContent: "Faktanya, PT PLN tidak pernah mengadakan program pembagian token listrik gratis melalui link media sosial. Tautan yang disebarkan mengarah ke halaman yang meminta data pribadi dan nomor Telegram — modus phishing yang memanfaatkan harapan masyarakat akan subsidi listrik. Program resmi PLN hanya diumumkan melalui pln.co.id dan aplikasi PLN Mobile."
+  },
+  {
+    id: 36,
+    title: "[HOAKS] Link Cek Penerimaan Bansos PKH dan BPNT Cair Maret–April 2026",
+    topic: "umum",
+    status: "hoax",
+    date: "2026-03-30",
+    source: "Liputan6 Cek Fakta",
+    sourceUrl: "https://www.liputan6.com/cek-fakta/read/6306513/cek-fakta-tidak-benar-link-cek-bansos-pkh-dan-bpnt-yang-cair-maret-april-2026",
+    excerpt: "Link beredar di Facebook mengeklaim masyarakat bisa mengecek status penerimaan bansos PKH dan BPNT yang cair Maret–April 2026 melalui tautan tersebut.",
+    fullContent: "Faktanya, link tersebut tidak resmi dan meminta data pribadi termasuk nama lengkap dan nomor Telegram — modus penipuan yang menyasar penerima bantuan sosial. Pengecekan status bansos yang sah hanya bisa dilakukan melalui cekbansos.kemensos.go.id, aplikasi 'Cek Bansos' (Google Play/App Store), atau datang langsung ke kantor desa/kelurahan dengan membawa KTP."
+  },
+  {
+    id: 37,
+    title: "[HOAKS] Presiden Prabowo Akan Hentikan Program MBG Setelah Idul Fitri",
+    topic: "kebijakan",
+    status: "hoax",
+    date: "2026-02-26",
+    source: "Liputan6 Cek Fakta",
+    sourceUrl: "https://www.liputan6.com/cek-fakta/read/6288927",
+    excerpt: "Unggahan menyebutkan Presiden Prabowo akan secara resmi menghentikan program Makan Bergizi Gratis (MBG) setelah Hari Raya Idul Fitri.",
+    fullContent: "Faktanya, tidak ada pernyataan resmi dari Presiden Prabowo maupun Badan Gizi Nasional (BGN) terkait penghentian program MBG. Program MBG adalah program prioritas nasional yang masih berjalan. Klaim ini merupakan disinformasi yang sengaja disebarkan untuk merusak kepercayaan publik terhadap program pemerintah."
+  },
+  {
+    id: 38,
+    title: "[HOAKS] Jurnalis CNN Indonesia Ditahan karena Membongkar Kasus Keracunan MBG",
+    topic: "umum",
+    status: "hoax",
+    date: "2026-03-05",
+    source: "Liputan6 Cek Fakta",
+    sourceUrl: "https://www.liputan6.com/cek-fakta/read/6292292",
+    excerpt: "Unggahan mengeklaim jurnalis CNN Indonesia bernama Valencia ditahan pihak berwajib karena berani membongkar kasus keracunan dalam program MBG.",
+    fullContent: "Faktanya, tidak ada jurnalis CNN Indonesia bernama Valencia yang ditahan terkait pemberitaan MBG. CNN Indonesia tidak pernah merilis laporan investigasi tentang kasus keracunan MBG yang berujung penahanan jurnalis. Klaim ini adalah konten fabrikasi yang mencatut nama media kredibel untuk menyebarkan narasi palsu seputar program MBG."
+  },
+  {
+    id: 39,
+    title: "[HOAKS] Link Pendaftaran Lowongan Kerja PT Pegadaian via Rekrutmen Bersama BUMN 2026",
+    topic: "ekonomi",
+    status: "hoax",
+    date: "2026-04-01",
+    source: "Liputan6 Cek Fakta",
+    sourceUrl: "https://www.liputan6.com/cek-fakta/read/6307927/cek-fakta-tidak-benar-link-pendaftaran-lowongan-kerja-di-pt-pegadaian-2026",
+    excerpt: "Link pendaftaran lowongan kerja PT Pegadaian melalui Rekrutmen Bersama BUMN 2026 beredar di Facebook, mengarahkan pelamar ke formulir digital yang meminta data pribadi.",
+    fullContent: "Faktanya, link tersebut bukan berasal dari PT Pegadaian. Formulir palsu meminta nama lengkap dan nomor Telegram — bukan prosedur rekrutmen resmi. Lowongan kerja resmi PT Pegadaian hanya dipublikasikan melalui pegadaian.co.id/karir. Hoaks lowongan kerja BUMN terus berulang dan menyasar pencari kerja yang tidak waspada dengan memanfaatkan nama lembaga tepercaya."
   }
 ];
