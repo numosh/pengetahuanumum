@@ -284,5 +284,49 @@ export const hoaxData = [
     sourceUrl: "https://www.liputan6.com/cek-fakta/read/6289640/cek-fakta-hoaks-link-pendaftaran-bantuan-bibit-ayam-periode-21-februari-30-april-2026",
     excerpt: "Unggahan Facebook menawarkan program bantuan bibit ayam gratis dari pemerintah dengan kuota 5.000 nasional, termasuk DOC, pakan, imunisasi, dan modal usaha.",
     fullContent: "Faktanya, Direktorat Jenderal Peternakan dan Kesehatan Hewan (Ditjen PKH) Kementan mengeluarkan peringatan resmi: 'Hati-hati! Jangan mudah percaya akun mencurigakan atau link pendaftaran tidak resmi.' Link tersebut mengarahkan ke formulir yang meminta nomor KTP dan kontak Telegram — modus pencurian data pribadi. Informasi program bantuan ternak yang sah hanya tersedia di www.pertanian.go.id dan akun resmi Kementan."
+  },
+  {
+    id: 27,
+    title: "[HOAKS] Foto Wapres Gibran Bertemu Ayatollah Ali Khamenei Bahas Perlengkapan Tempur",
+    topic: "pejabat",
+    status: "hoax",
+    date: "2026-03-31",
+    source: "Kompas Cek Fakta",
+    sourceUrl: "https://www.kompas.com/cekfakta/read/2026/03/31/175100182/infografik--muncul-hoaks-wapres-gibran-pernah-bertemu-ayatollah-ali",
+    excerpt: "Foto memperlihatkan Wakil Presiden Gibran berdiskusi dengan Pemimpin Tertinggi Iran Ayatollah Ali Khamenei terkait pengiriman perlengkapan tempur ke Indonesia.",
+    fullContent: "Faktanya, tidak ada pertemuan Gibran dengan pejabat Iran manapun, termasuk Ayatollah Ali Khamenei. Selama menjabat sebagai wakil presiden, Gibran tidak pernah berkunjung ke Iran. Analisis foto menggunakan Hive Moderation menunjukkan konten tersebut '99,9 persen merupakan AI generatif' — hasil manipulasi deepfake berbasis kecerdasan buatan yang dirancang untuk menciptakan narasi geopolitik palsu."
+  },
+  {
+    id: 28,
+    title: "[KLARIFIKASI] Tidak Benar Harga Pertamax Naik Jadi Rp17.850 per 1 April 2026",
+    topic: "ekonomi",
+    status: "hoax",
+    date: "2026-03-31",
+    source: "Kompas Cek Fakta",
+    sourceUrl: "https://www.kompas.com/cekfakta/read/2026/03/31/111100882/-klarifikasi-tidak-benar-harga-pertamax-jadi-rp-17.850-pertamina-belum",
+    excerpt: "Tabel proyeksi kenaikan harga BBM non-subsidi per April 2026 beredar di media sosial, mengeklaim Pertamax naik ke Rp17.850/liter dan Dexlite ke Rp23.650/liter.",
+    fullContent: "Faktanya, Corporate Secretary Pertamina Roberth MV Dumatubun menyatakan: 'Tidak ada pengumuman resmi terkait harga per 1 April 2026.' Tabel yang beredar bukan berasal dari Pertamina. Informasi harga BBM yang valid hanya diumumkan melalui kanal resmi www.pertamina.com. Masyarakat diminta tidak menyebarkan tabel tidak resmi yang berpotensi memicu kepanikan."
+  },
+  {
+    id: 29,
+    title: "[HOAKS] Link Pendaftaran CPNS Kementerian Imigrasi 2026 Usia Maksimal 45 Tahun",
+    topic: "kebijakan",
+    status: "hoax",
+    date: "2026-04-01",
+    source: "Liputan6 Cek Fakta",
+    sourceUrl: "https://www.liputan6.com/cek-fakta/read/6308280/cek-fakta-hoaks-link-pendaftaran-cpns-kementerian-imigrasi-2026-usia-maksimal-45-tahun",
+    excerpt: "Unggahan Facebook menawarkan link pendaftaran CPNS Kementerian Imigrasi dan Pemasyarakatan 2026 dengan usia maksimal 45 tahun.",
+    fullContent: "Faktanya, Kementerian Imigrasi dan Pemasyarakatan melalui pernyataan resmi 18 Februari 2026 menegaskan belum mengumumkan rekrutmen CPNS 2026. Seluruh informasi lowongan resmi hanya dipublikasikan melalui media dan website resmi kementerian. Pendaftaran CPNS yang sah hanya dilakukan melalui portal SSCASN di sscasn.bkn.go.id — bukan melalui link media sosial."
+  },
+  {
+    id: 30,
+    title: "[HOAKS] Bahlil Wajibkan Pengemudi Ojol Beli Motor Listrik Mulai 2026",
+    topic: "kebijakan",
+    status: "hoax",
+    date: "2026-01-09",
+    source: "TurnBackHoax (Mafindo)",
+    sourceUrl: "https://turnbackhoax.id/articles/31564",
+    excerpt: "Klaim beredar bahwa Menteri ESDM Bahlil Lahadalia mewajibkan pengemudi ojek online membeli motor listrik di tahun 2026 untuk mengurangi beban subsidi negara.",
+    fullContent: "Faktanya, tidak ada pernyataan resmi dari Menteri Bahlil yang mendukung klaim tersebut. Bahlil sendiri menyatakan: 'Sampai sekarang tidak ada pembahasan dan tidak ada perubahan pola.' Kebijakan nasional yang berdampak pada jutaan orang pasti akan melalui pengumuman resmi, regulasi tertulis, dan pemberitaan media — tidak ada satupun yang bisa ditemukan untuk klaim ini."
   }
 ];
