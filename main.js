@@ -1,4 +1,8 @@
 import { hoaxData } from './data.js';
+import { inject as injectAnalytics } from '@vercel/analytics';
+
+// Initialize Vercel Analytics
+injectAnalytics();
 
 const escapeHtml = (str) => String(str)
   .replace(/&/g, '&amp;')
